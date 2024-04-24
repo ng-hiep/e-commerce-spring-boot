@@ -29,6 +29,7 @@ public class StoreController {
     private final ProductService productService;
     private final CategoryService categoryService;
     private final BrandService brandService;
+    
     @Autowired
     public StoreController(ProductService productService, CategoryService categoryService, BrandService brandService) {
         this.productService = productService;
